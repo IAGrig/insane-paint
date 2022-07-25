@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Canvas</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <menu>
+        <h1>Menu:</h1>
+        <h2>Upload image:</h2>
+        <input type="file" id="fileChoose" />
+        <input type="button" value="Insert" id="insertFileButton" />
+        <h2>Color:</h2>
+        <input type="color" id="colorPick" />
+        <input type="button" value="Random Color" id="randomColor" />
+        <h2>Line weight:</h2>
+        <input type="range" min="1" id="lineWeight" />
+        <input type="number" id="lineWeightNum" />
+        <br />
+        <input type="button" id="clear" value="clear" />
+      </menu>
+      <canvas id="myCanvas"> Canvas не работает </canvas>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
